@@ -1,0 +1,136 @@
+.lyc-nav-boss {
+    width: 100%;
+    background: #fff;
+    overflow: hidden;
+    padding: 0.256rem 0 0.064rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-top: 1px solid #efefef;
+    z-index: 2;
+}
+.lyc-nav-boss .nav-li-gj {
+    width: 100%;
+}
+.lyc-nav-boss .nav-li-gj li {
+    width: 33.3333333%;
+    float: left;
+    text-align: center;
+    margin: 0 auto;
+}
+.lyc-nav-boss .nav-li-gj li a {
+    display: block;
+    color: #868686;
+    font-size: 0.4693333333333333rem;
+    font-family: pingfang sc;
+    cursor: pointer;
+}
+.lyc-nav-boss .nav-li-gj li a i {
+    width: 0.9386666666666666rem;
+    height: 0.9386666666666666rem;
+    display: block;
+    position: relative;
+    left: 50%;
+    margin-bottom: 0.08533333333333333rem;
+    margin-left: -0.49066666666666664rem;
+}
+.lyc-nav-boss .nav-li-gj li a .nav-tp1 {
+    background: url(../img/nav1.png) center center no-repeat;
+    background-size: contain;
+}
+.lyc-nav-boss .nav-li-gj li a .nav-tp2 {
+    background: url(../img/nav2.png) center center no-repeat;
+    background-size: contain;
+}
+.lyc-nav-boss .nav-li-gj li a .nav-tp3 {
+    background: url(../img/nav3.png) center center no-repeat;
+    background-size: contain;
+}
+.lyc-nav-boss .nav-li-gj li a .nav-tp4 {
+    background: url(../img/nav4.png) center center no-repeat;
+    background-size: contain;
+}
+.lyc-nav-boss .nav-li-gj li a .nav-tp5 {
+    background: url(../img/nav5.png) center center no-repeat;
+    background-size: contain;
+}
+.lyc-nav-boss .nav-li-gj li a span {
+    line-height: 0.64rem;
+}
+.lyc-nav-boss .nav-li-gj li .active-nav-gj span {
+    color: #FF7901;
+}
+.lyc-nav-boss .nav-li-gj li .active-nav-gj .nav-tp1 {
+    background: url(../img/nav1-1.png) center center no-repeat;
+    background-size: contain;
+}
+.lyc-nav-boss .nav-li-gj li .active-nav-gj .nav-tp2 {
+    background: url(../img/nav2-1.png) center center no-repeat;
+    background-size: contain;
+}
+.lyc-nav-boss .nav-li-gj li .active-nav-gj .nav-tp3 {
+    background: url(../img/nav3-1.png) center center no-repeat;
+    background-size: contain;
+}
+.lyc-nav-boss .nav-li-gj li .active-nav-gj .nav-tp4 {
+    background: url(../img/nav4-1.png) center center no-repeat;
+    background-size: contain;
+}
+.lyc-nav-boss .nav-li-gj li .active-nav-gj .nav-tp5 {
+    background: url(../img/nav5-1.png) center center no-repeat;
+    background-size: contain;
+}
+.file{
+    width: 150px;
+    height:150px;
+    border: 1px solid #D5D5D5;
+    text-align: center;
+    position: relative;
+    font-size: 14px;
+    color: #868686;
+    letter-spacing: 0;
+    margin: auto;
+
+}
+.file1{
+    margin-left: 30px;
+    margin-right: 15px;
+}
+.file span{
+    display: inline-block;
+    width: 64px;
+    height:64px;
+    background: url(../img/file-img.png) no-repeat;
+    background-size: 100% 100%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.file input{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    top:0px;
+    left: 0px;
+    opacity: 0;
+}
+.file img{
+    width: 100% ;
+    height:100%;
+    position: absolute;
+    top:0px;
+    left:0px;
+}
+.file-p{
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.btn{
+    opacity: 0.99;
+    border-radius: 100px;
+    width: 315px;
+    height:44px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+
+}

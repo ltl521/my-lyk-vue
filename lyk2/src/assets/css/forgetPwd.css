@@ -1,0 +1,70 @@
+body{
+    background: #efefef!important;
+}
+.lyc-t-boss-gj {
+  width: 100%;
+  height: 1.8773333333333333rem;
+  background: #000;
+  position: relative;
+  overflow: hidden;
+}
+.lyc-t-boss-gj dl {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 1.8773333333333333rem;
+  line-height: 1.7066666666666668rem;
+}
+.lyc-t-boss-gj dl dt {
+  display: inline-block;
+  padding-left: 1.152rem;
+  font-size: 0.6826666666666666rem;
+  color: #fff;
+  position: relative;
+}
+.lyc-t-boss-gj dl dt a {
+  color: #fff;
+}
+.lyc-t-boss-gj dl dt:before {
+  content: "";
+  display: block;
+  width: 0.4266666666666667rem;
+  height: 0.768rem;
+  background: url(../img/head-back.png) center center no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 0.512rem;
+  top: 0.4266666666666667rem;
+}
+.lyc-t-boss-gj dl dd {
+  display: inline-block;
+  font-size: 0.6826666666666666rem;
+  color: #fff;
+  margin-left: 0.08533333333333333rem;
+}
+.lyc-t-boss-gj h6 {
+  text-align: center;
+  width: 100%;
+  font-size: 0.768rem;
+  color: #fff;
+  line-height: 1.92rem;
+}
+.form{
+    margin-top:2rem;
+    background: #fff;
+    width: 16rem;
+
+}
+.form>div{
+    height:2rem;
+    margin: 0px;
+    line-height: 2rem;
+}
+.form .btn-yzm{
+    top:50%;
+}
+.form>div input{
+    padding-left: 1rem;
+}
+.form>div .duk-mo-k{padding-left: 0;top: 0;}
+.kai-add-p{padding-top: 1.4rem;}

@@ -1,0 +1,114 @@
+body{
+    background: #2A2E31;
+    padding: 0.64rem 0.5546666666666666rem;
+    width: 16rem;
+    overflow-x: hidden;
+
+}
+.content-blank>div img{
+    width: 1.7066666666666668rem;
+    height: 1.7066666666666668rem;
+    vertical-align: middle;
+}
+.blank_name{
+    margin-left: 0.512rem;
+    font-size: 0.768rem;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+.status{
+    position: absolute;
+    top:3.498666666666667rem;
+    left: 0.08533333333333333rem;
+    background-image: linear-gradient(90deg, #FFB206 0%, #FF7B04 100%);
+    box-shadow: 0 0 0.17066666666666666rem 0 #E85702;
+    font-size: 0.512rem;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    width: 2.176rem;
+    height: 0.9386666666666666rem;
+    line-height: 0.9386666666666666rem;
+    border-top-right-radius: 0.4266666666666667rem;
+    border-bottom-right-radius: 0.4266666666666667rem;
+    text-align: center;
+    display: none;
+}
+.status.active{
+    display: block;
+}
+.blank_num{
+    margin-top: 1.3226666666666667rem;
+    text-align: center;
+}
+.blank_num-wh{
+    position: relative;
+    top:-0.21333333333333335rem;
+    font-size: 1.28rem;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 1.024rem;
+}
+.wapper-p{
+    overflow: hidden;
+    width: 16rem;
+    margin-bottom: 1rem;
+}
+.waper{
+    width: 25.941333333333333rem;
+    overflow: hidden;
+}
+.normal-blank{
+    background: url(../img/Group16Copy21@2x.png) no-repeat;
+    width:14.933333333333334rem;
+    height: 5.973333333333334rem;
+    background-size: 100% 100%;
+    position: relative;
+    padding-left: 0.896rem;
+    padding-top: 0.8533333333333334rem;
+    color:#fff;
+    float: left;
+}
+.dele-p{
+    float: left;
+    width: 9.941333333333333rem;
+    position: relative;
+    top: 0.21333333333333335rem;
+    left:0.6826666666666666rem;
+}
+.dele-p>div{
+    float: left;
+    text-align: center;
+    color:#fff;
+}
+.setting{
+    width: 6.4rem;
+    background: #9B9B9B;
+    font-size: 0.768rem;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    height:5.589333333333333rem;
+    line-height: 5.589333333333333rem;
+}
+.deleat{
+    background: #FF7901;
+    width: 3.541333333333333rem;
+    line-height: 5.589333333333333rem;
+    height:5.589333333333333rem;
+
+}
+.add-blank{
+    font-size: 0.6826666666666666rem;
+    color: #909090;
+    letter-spacing: 0;
+    line-height: 0.8106666666666666rem;
+    margin-top: 1.5786666666666667rem;
+    cursor: pointer;
+}
+.add-blank span{
+    font-size: 1.024rem;
+    margin-left: 0.21333333333333335rem;
+    margin-right: 0.4266666666666667rem;
+    position: relative;
+    top:0.08533333333333333rem;
+
+}

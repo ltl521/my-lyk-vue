@@ -1,0 +1,140 @@
+/*
+body{
+    background: #efefef;
+}
+.container{
+    margin-top: 20px;
+}
+.container>div{
+    width: 100%;
+    height:44px;
+    background: #fff;
+    line-height: 44px;
+    font-size: 14px;
+    color: #868686;
+    letter-spacing: 0;
+    padding-left: 30px;
+
+}
+.container>div:first-child{
+    border-bottom: 1px solid #efefef;
+}
+.container>div>input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    font-size: 14px;
+    color: #868686;
+    letter-spacing: 0;
+}
+.container button{
+    width: 315px;
+    height:44px;
+    opacity: 0.99;
+
+    background-image: linear-gradient(-180deg, #FFB102 0%, #FF7901 100%);
+    border-radius: 100px;
+
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: 0;
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+
+}*/
+body{
+    background: #efefef;
+}
+.lyc-t-boss-gj {
+  width: 100%;
+  height: 1.8773333333333333rem;
+  background: #000;
+  position: relative;
+  overflow: hidden;
+}
+.lyc-t-boss-gj dl {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 1.8773333333333333rem;
+  line-height: 1.7066666666666668rem;
+}
+.lyc-t-boss-gj dl dt {
+  display: inline-block;
+  padding-left: 1.152rem;
+  font-size: 0.6826666666666666rem;
+  color: #fff;
+  position: relative;
+}
+.lyc-t-boss-gj dl dt a {
+  color: #fff;
+}
+.lyc-t-boss-gj dl dt:before {
+  content: "";
+  display: block;
+  width: 0.4266666666666667rem;
+  height: 0.768rem;
+  background: url(../img/head-back.png) center center no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 0.512rem;
+  top: 0.4266666666666667rem;
+}
+.lyc-t-boss-gj dl dd {
+  display: inline-block;
+  font-size: 0.6826666666666666rem;
+  color: #fff;
+  margin-left: 0.08533333333333333rem;
+}
+.lyc-t-boss-gj h6 {
+  text-align: center;
+  width: 100%;
+  font-size: 0.768rem;
+  color: #fff;
+  line-height: 1.92rem;
+}
+.container{
+    margin-top: 0.8533333333333334rem;
+}
+.container>div{
+    width: 100%;
+    height:1.8773333333333333rem;
+    background: #fff;
+    line-height: 1.8773333333333333rem;
+    font-size: 0.5973333333333334rem;
+    color: #868686;
+    letter-spacing: 0;
+    padding-left: 1.28rem;
+
+}
+.container>div{
+    border-bottom: 1px solid #efefef;
+}
+.container>div:last-child{
+    border-bottom: none;
+}
+.container>div>input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    font-size: 0.5973333333333334rem;
+    color: #868686;
+    letter-spacing: 0;
+}
+.container button{
+    width: 13.44rem;
+    height:1.8773333333333333rem;
+    opacity: 0.99;
+
+    background-image: linear-gradient(-180deg, #FFB102 0%, #FF7901 100%);
+    border-radius: 100px;
+
+    font-size: 0.5973333333333334rem;
+    color: #fff;
+    letter-spacing: 0;
+    margin: auto;
+    margin-top: 0.8533333333333334rem;
+    display: block;
+
+}
