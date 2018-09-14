@@ -1,0 +1,29 @@
+body {
+  background: #efefef;
+}
+/*.modal {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background: transparent;
+  display: none;
+  .modal-content {
+    opacity: 0.7;
+    background: #000000;
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 7.125333333333334rem;
+    height: 1.8773333333333333rem;
+    font-size: 0.5973333333333334rem;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 1.8773333333333333rem;
+    margin-left: -3.562666666666667rem;
+    margin-top: -0.9386666666666666rem;
+    text-align: center;
+  }
+}*/
