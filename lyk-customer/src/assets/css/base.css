@@ -58,6 +58,7 @@ button{
 body{
     width: 100%;
     overflow-x: hidden;
+  background:#f5f5f5;
 }
 .boss-que{
     position: fixed;
