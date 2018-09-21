@@ -23,11 +23,15 @@
     <!-- <div class="zj-jine-box">
          <p>总计：<span id='sum'></span>元</p>
          <a href="card_loan_history" id="card_loan_history">还款</a>
-
      </div>-->
     <!--<div class="zj-hkBtn-box clearfix" >-->
      <button class="fk-btn" type="button"  id="saoma">扫码付款</button>
     <!--</div>-->
+
+  <!--错误提示弹框-->
+    <remind-modal></remind-modal>
+    <!--认证提示弹框-->
+    <certification-modal></certification-modal>
 
     <home-footer></home-footer>
   </div>
@@ -36,11 +40,15 @@
 <script>
   import homeHeader from '@/pages/common/header'
   import homeFooter from '@/pages/common/footer'
+  import remindModal from '@/pages/common/remind_modal'
+  import certificationModal from '@/pages/common/certification_modal'
 export default {
 	name:'home',
   components: {
 		homeHeader,
-    homeFooter
+    homeFooter,
+    remindModal,
+    certificationModal
   }
 }
 </script>

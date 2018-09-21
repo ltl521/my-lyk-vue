@@ -82,5 +82,34 @@ function dateFormat(date, format) {
     return format;
 }
 
+function days(date) {
+    var now = new Date();
+    var days = parseInt((date - now)/(1000*60*60*24));
+    if(days<0){
+        days=Math.abs(days)
+    }
+    return days;
+}
 
-document.getElementsByTagName('title')[0].innerHTML='零用卡-能赊账(商户版)';
+//验证手机号码
+function vaidPhone(phone) {
+    if (phone == '') {
+        return 1;
+    }
+    if (!(/^1[34578][0-9]{9}$/.test(phone))) {
+        return 2;
+    }
+    return 0;
+}
+//验证密码
+function vaidPassword(password){
+    if (password == '') {
+        return 1;
+    }
+    if(!(/^(?=.*[a-zA-Z])(?=.*\d)[a-zA-Z\d]{6,10}$/.test(password))){
+        return 2;
+    }
+
+    return 0;
+}
+document.getElementsByTagName('title')[0].innerHTML='零用卡-能赊账(vue)';

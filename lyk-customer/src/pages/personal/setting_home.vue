@@ -15,32 +15,41 @@
     </div>
   </div>
   <div class="personal-list">
-    <router-link class="personal-item" to="" tag="div">
+    <router-link class="personal-item" to="/certification" tag="div">
       <img class="item-icon" src="../../assets/img/shrz-tp.png" alt="">
       <span class="item-title">身份认证</span>
     </router-link>
-    <router-link class="personal-item" to="" tag="div">
+    <router-link class="personal-item" to="/message" tag="div">
       <img class="item-icon" src="../../assets/img/news-tp.png" alt="">
       <span class="item-title">消息中心</span>
     </router-link>
-    <router-link class="personal-item" to="" tag="div">
+    <router-link class="personal-item" to="/service" tag="div">
       <img class="item-icon" src="../../assets/img/cus-tp.png" alt="">
       <span class="item-title">客服中心</span>
     </router-link>
-    <router-link class="personal-item" to="" tag="div">
+    <router-link class="personal-item" to="/security" tag="div">
       <img class="item-icon" src="../../assets/img/save-tp.png" alt="">
       <span class="item-title">安全设置</span>
     </router-link>
-    <router-link class="personal-item" to="" tag="div">
+    <router-link class="personal-item" to="/transaction" tag="div">
       <img class="item-icon" src="../../assets/img/fukuanma.png" alt="">
       <span class="item-title">交易记录</span>
     </router-link>
-    <router-link class="personal-item" to="" tag="div">
+    <router-link class="personal-item" to="/coupon" tag="div">
       <img class="item-icon" src="../../assets/img/my-yhq-p.png" alt="">
       <span class="item-title">我的优惠券</span>
     </router-link>
   </div>
   <div class="log-off" onclick="showLocal()">退出登录</div>
+
+
+
+  <!--错误提示弹框-->
+  <remind-modal></remind-modal>
+  <!--认证提示弹框-->
+  <certification-modal></certification-modal>
+
+  <log-off-modal></log-off-modal>
 
   <home-footer></home-footer>
 </div>
@@ -49,11 +58,17 @@
 <script>
   import homeHeader from '@/pages/common/header'
   import homeFooter from '@/pages/common/footer'
+  import remindModal from '@/pages/common/remind_modal'
+  import certificationModal from '@/pages/common/certification_modal'
+  import logOffModal from '@/pages/common/log_off_modal'
 export default {
 	name: 'personal',
   components: {
 		homeHeader,
-    homeFooter
+    homeFooter,
+    remindModal,
+    certificationModal,
+    logOffModal
   }
 }
 </script>
